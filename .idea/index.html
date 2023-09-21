@@ -1,0 +1,64 @@
+<!--
+Your name: Kristen Lee
+Class: Web Development period 3
+Teacher: Mr. Irimina
+Date: 9/18/2023
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>trial</title>
+        <style></style>
+        <script>
+        function greet(){
+            console.log("Hello World.");
+        }
+        function shoutTen(){
+            console.log("10!");
+        }
+        function initialize(){
+            outputDiv = document.getElementById("divout");
+        }
+        function addNumbers(){
+        var result = num1+num2;
+        console.log(result);
+        }
+        function clickResponse(){
+            outputDiv.innerHTML = "now you've clicked the button";
+        }
+        </script>
+    </head>
+    <body onload="initialize();">
+        <div id = "divout">
+            you have not clicked the button
+        </div>
+
+
+        <button onclick= "shoutTen();">Shout Ten</button>
+        <button onclick= "addNumbers();">add</button>
+        <button onclick= "clickResponse();">click Me!</button>
+        <p>Hello World<br />
+        </p>
+        <p>
+            Hello World
+            Goodbye World
+        </p>
+        <!-- block elements-->
+        <div>
+            This is div one
+        </div>
+        <div>
+            This is div two
+        </div>
+        <!-- inline elements-->
+        <span>
+            This is a span
+            &lt;&#230;
+        </span>
+        <h1> this is h1</h1>
+        <h3> this is h3</h3>
+        <h4> this is h4</h4>
+    </body>
+</html>
